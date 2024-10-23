@@ -129,28 +129,42 @@ html,body {
 }
 
 #scroll {
-    height: 40vh;
+    height: 27vh;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
     /* padding: 1vw; */
     white-space: nowrap;
-    overflow-x: auto;
+    overflow-x: hidden;
     overflow-y: hidden;
 }
 
 #container {
     height: 100%;
-    width: 100%;
-    background-color: blueviolet;
+    width: 110%;
+    /* background-color: blueviolet; */
     display: inline-block;
+    padding: 2vw;
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 #scroll img {
-    display: none;
-    height: 80%;
+    /* display: none; */
+    height: 95%;
     border-radius: 50%;
-    width: 17%;
+    width: 15%;
+    margin:1.1vw;
     object-fit: cover;
-    object-position: top;
+    object-position: 30% 30%;
+}
 
+@keyframes animation {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
 }
