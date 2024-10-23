@@ -60,3 +60,97 @@ html,body {
 #nav h2:nth-last-child(2){
     width: 29% ;
 }
+
+#center {
+    height: 90%;
+    width: 100%;
+    /* background-color: red; */
+    padding: 5vw;
+    position: relative;
+}
+
+#content {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#content video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#overlay {
+    height: 45%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 3vw;
+    color: #ffff;
+}
+
+#cover1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2vw;
+}
+
+#cover1 h1 {
+    font-family: monument;
+    font-size: 3.6vw;
+    /* mix-blend-mode: difference; */
+}
+
+#cover1 h2 {
+    font-size: 1vw;
+    padding: 2vw  2.1vw;
+    /* background-color:#fff ; */
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+#cover2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #fff;
+    padding: 1.5vw  0;
+}
+
+#cover2 h4 {
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+
+#cover2 img {
+  height: 3vw;  
+}
+
+#scroll {
+    height: 40vh;
+    width: 100%;
+    background-color: red;
+    /* padding: 1vw; */
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+    display: inline-block;
+}
+
+#scroll img {
+    display: none;
+    height: 80%;
+    border-radius: 50%;
+    width: 17%;
+    object-fit: cover;
+    object-position: top;
+
+}
