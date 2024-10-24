@@ -129,7 +129,7 @@ html,body {
 }
 
 #scroll {
-    height: 27vh;
+    height: 40vh;
     width: 100%;
     /* background-color: red; */
     /* padding: 1vw; */
@@ -155,7 +155,7 @@ html,body {
     height: 95%;
     border-radius: 50%;
     width: 15%;
-    margin:1.1vw;
+    margin: 1.1vw;
     object-fit: cover;
     object-position: 30% 30%;
 }
